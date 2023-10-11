@@ -1,0 +1,24 @@
+Employee: "Hello, this is Julia Schreider from Contoso Company. How can I help
+you today?"
+Customer: "Hi, I am Carsten Mueller. I ordered a package 10 days ago, on
+February 10th, and it was supposed to arrive in maximum 5 business days. I
+have called three times already and nobody could provide any more information.
+I want to know where the package is and I want the problem to be solved
+immediately. This is the worst service I had for a long time!"
+Employee: "I apologize for the inconvenience, Mr. Mueller. I understand your
+frustration and I'm here to help. Can you please provide me with your order
+number so I can look into this for you?"
+Customer: "Yes, it's ACZ456789."
+Employee: "Thank you. I'm looking into it now. Can you please hold for a few
+minutes while I check the status of your package?"
+Customer: "Okay."
+Employee: "Thank you for your patience. I am sorry to inform you that I am
+unable to find the status of your package. It appears to have left the sending
+address, but no up-to-date status on the current location. I will further
+investigate your case and get back to you as soon as possible via phone call.
+Could you please provide me your contact information?"
+Customer: "Ah not again. Anyway, my phone number is +4911112223344."
+Employee: "I apologize again for the inconvenience. Is there anything else I
+can help you with today?"
+Customer: "No."
+Employee: "Thank you. Have a great day!"
