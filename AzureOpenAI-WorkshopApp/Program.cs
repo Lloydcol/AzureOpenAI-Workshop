@@ -50,6 +50,8 @@ void GetSummaryFromOpenAI(string text){
         chatCompletionsOptions);
     string completion = response.Choices[0].Message.Content;
 
+    // Get the result
+
     Console.WriteLine("Summary: " + completion + "\n");
 }
 
