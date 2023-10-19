@@ -91,46 +91,6 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Configuration.CommandLine/7.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration": "7.0.0",
-          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0"
-        },
-        "compile": {
-          "lib/net7.0/Microsoft.Extensions.Configuration.CommandLine.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Microsoft.Extensions.Configuration.CommandLine.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        }
-      },
-      "Microsoft.Extensions.Configuration.EnvironmentVariables/7.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration": "7.0.0",
-          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0"
-        },
-        "compile": {
-          "lib/net7.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        }
-      },
       "Microsoft.Extensions.Configuration.FileExtensions/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -170,29 +130,6 @@
         },
         "runtime": {
           "lib/net7.0/Microsoft.Extensions.Configuration.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        }
-      },
-      "Microsoft.Extensions.Configuration.Xml/7.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration": "7.0.0",
-          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
-          "Microsoft.Extensions.Configuration.FileExtensions": "7.0.0",
-          "Microsoft.Extensions.FileProviders.Abstractions": "7.0.0",
-          "System.Security.Cryptography.Xml": "7.0.0"
-        },
-        "compile": {
-          "lib/net7.0/Microsoft.Extensions.Configuration.Xml.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Microsoft.Extensions.Configuration.Xml.dll": {
             "related": ".xml"
           }
         },
@@ -291,22 +228,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Formats.Asn1/7.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/System.Formats.Asn1.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/System.Formats.Asn1.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        }
-      },
       "System.Memory.Data/1.0.2": {
         "type": "package",
         "dependencies": {
@@ -347,50 +268,6 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
-      "System.Security.Cryptography.Pkcs/7.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Formats.Asn1": "7.0.0"
-        },
-        "compile": {
-          "lib/net7.0/System.Security.Cryptography.Pkcs.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/System.Security.Cryptography.Pkcs.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
-        }
-      },
-      "System.Security.Cryptography.Xml/7.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Security.Cryptography.Pkcs": "7.0.0"
-        },
-        "compile": {
-          "lib/net7.0/System.Security.Cryptography.Xml.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/System.Security.Cryptography.Xml.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -567,60 +444,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Configuration.CommandLine/7.0.0": {
-      "sha512": "a8Iq8SCw5m8W5pZJcPCgBpBO4E89+NaObPng+ApIhrGSv9X4JPrcFAaGM4sDgR0X83uhLgsNJq8VnGP/wqhr8A==",
-      "type": "package",
-      "path": "microsoft.extensions.configuration.commandline/7.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/Microsoft.Extensions.Configuration.CommandLine.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Configuration.CommandLine.targets",
-        "lib/net462/Microsoft.Extensions.Configuration.CommandLine.dll",
-        "lib/net462/Microsoft.Extensions.Configuration.CommandLine.xml",
-        "lib/net6.0/Microsoft.Extensions.Configuration.CommandLine.dll",
-        "lib/net6.0/Microsoft.Extensions.Configuration.CommandLine.xml",
-        "lib/net7.0/Microsoft.Extensions.Configuration.CommandLine.dll",
-        "lib/net7.0/Microsoft.Extensions.Configuration.CommandLine.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Configuration.CommandLine.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Configuration.CommandLine.xml",
-        "microsoft.extensions.configuration.commandline.7.0.0.nupkg.sha512",
-        "microsoft.extensions.configuration.commandline.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
-    "Microsoft.Extensions.Configuration.EnvironmentVariables/7.0.0": {
-      "sha512": "RIkfqCkvrAogirjsqSrG1E1FxgrLsOZU2nhRbl07lrajnxzSU2isj2lwQah0CtCbLWo/pOIukQzM1GfneBUnxA==",
-      "type": "package",
-      "path": "microsoft.extensions.configuration.environmentvariables/7.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/Microsoft.Extensions.Configuration.EnvironmentVariables.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Configuration.EnvironmentVariables.targets",
-        "lib/net462/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
-        "lib/net462/Microsoft.Extensions.Configuration.EnvironmentVariables.xml",
-        "lib/net6.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
-        "lib/net6.0/Microsoft.Extensions.Configuration.EnvironmentVariables.xml",
-        "lib/net7.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
-        "lib/net7.0/Microsoft.Extensions.Configuration.EnvironmentVariables.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Configuration.EnvironmentVariables.xml",
-        "microsoft.extensions.configuration.environmentvariables.7.0.0.nupkg.sha512",
-        "microsoft.extensions.configuration.environmentvariables.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
     "Microsoft.Extensions.Configuration.FileExtensions/7.0.0": {
       "sha512": "xk2lRJ1RDuqe57BmgvRPyCt6zyePKUmvT6iuXqiHR+/OIIgWVR8Ff5k2p6DwmqY8a17hx/OnrekEhziEIeQP6Q==",
       "type": "package",
@@ -674,33 +497,6 @@
         "lib/netstandard2.1/Microsoft.Extensions.Configuration.Json.xml",
         "microsoft.extensions.configuration.json.7.0.0.nupkg.sha512",
         "microsoft.extensions.configuration.json.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
-    "Microsoft.Extensions.Configuration.Xml/7.0.0": {
-      "sha512": "KXmN/llitPZydHbW3cac7MQHGPUXPi4783tYxsBqSAFJgcaYTdLmsboFL7Ss4TsnelF0+v4ZMpEkKTtCtpysiA==",
-      "type": "package",
-      "path": "microsoft.extensions.configuration.xml/7.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/Microsoft.Extensions.Configuration.Xml.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Configuration.Xml.targets",
-        "lib/net462/Microsoft.Extensions.Configuration.Xml.dll",
-        "lib/net462/Microsoft.Extensions.Configuration.Xml.xml",
-        "lib/net6.0/Microsoft.Extensions.Configuration.Xml.dll",
-        "lib/net6.0/Microsoft.Extensions.Configuration.Xml.xml",
-        "lib/net7.0/Microsoft.Extensions.Configuration.Xml.dll",
-        "lib/net7.0/Microsoft.Extensions.Configuration.Xml.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Xml.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Xml.xml",
-        "microsoft.extensions.configuration.xml.7.0.0.nupkg.sha512",
-        "microsoft.extensions.configuration.xml.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -837,33 +633,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Formats.Asn1/7.0.0": {
-      "sha512": "+nfpV0afLmvJW8+pLlHxRjz3oZJw4fkyU9MMEaMhCsHi/SN9bGF9q79ROubDiwTiCHezmK0uCWkPP7tGFP/4yg==",
-      "type": "package",
-      "path": "system.formats.asn1/7.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/System.Formats.Asn1.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/System.Formats.Asn1.targets",
-        "lib/net462/System.Formats.Asn1.dll",
-        "lib/net462/System.Formats.Asn1.xml",
-        "lib/net6.0/System.Formats.Asn1.dll",
-        "lib/net6.0/System.Formats.Asn1.xml",
-        "lib/net7.0/System.Formats.Asn1.dll",
-        "lib/net7.0/System.Formats.Asn1.xml",
-        "lib/netstandard2.0/System.Formats.Asn1.dll",
-        "lib/netstandard2.0/System.Formats.Asn1.xml",
-        "system.formats.asn1.7.0.0.nupkg.sha512",
-        "system.formats.asn1.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
     "System.Memory.Data/1.0.2": {
       "sha512": "JGkzeqgBsiZwKJZ1IxPNsDFZDhUvuEdX8L8BDC8N3KOj+6zMcNU28CNN59TpZE/VJYy9cP+5M+sbxtWJx3/xtw==",
       "type": "package",
@@ -951,66 +720,6 @@
         "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
         "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
         "system.runtime.compilerservices.unsafe.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
-    "System.Security.Cryptography.Pkcs/7.0.0": {
-      "sha512": "mjUbEXkR6DYRef6dnEYKdfec9otcAkibExL+1f9hmbGlWIUyaCnS3Y3oGZEet38waXmuY1ORE8vgv4sgD5nMYg==",
-      "type": "package",
-      "path": "system.security.cryptography.pkcs/7.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/System.Security.Cryptography.Pkcs.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/System.Security.Cryptography.Pkcs.targets",
-        "lib/net462/System.Security.Cryptography.Pkcs.dll",
-        "lib/net462/System.Security.Cryptography.Pkcs.xml",
-        "lib/net6.0/System.Security.Cryptography.Pkcs.dll",
-        "lib/net6.0/System.Security.Cryptography.Pkcs.xml",
-        "lib/net7.0/System.Security.Cryptography.Pkcs.dll",
-        "lib/net7.0/System.Security.Cryptography.Pkcs.xml",
-        "lib/netstandard2.0/System.Security.Cryptography.Pkcs.dll",
-        "lib/netstandard2.0/System.Security.Cryptography.Pkcs.xml",
-        "lib/netstandard2.1/System.Security.Cryptography.Pkcs.dll",
-        "lib/netstandard2.1/System.Security.Cryptography.Pkcs.xml",
-        "runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.dll",
-        "runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.xml",
-        "runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.dll",
-        "runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.xml",
-        "system.security.cryptography.pkcs.7.0.0.nupkg.sha512",
-        "system.security.cryptography.pkcs.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
-    "System.Security.Cryptography.Xml/7.0.0": {
-      "sha512": "LHc5PUypYGAMNf/2DzCxOXREKamwCtdUtxb/WpCnHngORVYZbUdSMnm1PcKvEvzKUTKSC0CL6aVAywzbEEeNQg==",
-      "type": "package",
-      "path": "system.security.cryptography.xml/7.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/System.Security.Cryptography.Xml.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/System.Security.Cryptography.Xml.targets",
-        "lib/net462/System.Security.Cryptography.Xml.dll",
-        "lib/net462/System.Security.Cryptography.Xml.xml",
-        "lib/net6.0/System.Security.Cryptography.Xml.dll",
-        "lib/net6.0/System.Security.Cryptography.Xml.xml",
-        "lib/net7.0/System.Security.Cryptography.Xml.dll",
-        "lib/net7.0/System.Security.Cryptography.Xml.xml",
-        "lib/netstandard2.0/System.Security.Cryptography.Xml.dll",
-        "lib/netstandard2.0/System.Security.Cryptography.Xml.xml",
-        "system.security.cryptography.xml.7.0.0.nupkg.sha512",
-        "system.security.cryptography.xml.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -1158,10 +867,7 @@
     "net7.0": [
       "Azure.AI.OpenAI >= 1.0.0-beta.8",
       "Microsoft.Extensions.Configuration >= 7.0.0",
-      "Microsoft.Extensions.Configuration.CommandLine >= 7.0.0",
-      "Microsoft.Extensions.Configuration.EnvironmentVariables >= 7.0.0",
-      "Microsoft.Extensions.Configuration.Json >= 7.0.0",
-      "Microsoft.Extensions.Configuration.Xml >= 7.0.0"
+      "Microsoft.Extensions.Configuration.Json >= 7.0.0"
     ]
   },
   "packageFolders": {
@@ -1210,19 +916,7 @@
             "target": "Package",
             "version": "[7.0.0, )"
           },
-          "Microsoft.Extensions.Configuration.CommandLine": {
-            "target": "Package",
-            "version": "[7.0.0, )"
-          },
-          "Microsoft.Extensions.Configuration.EnvironmentVariables": {
-            "target": "Package",
-            "version": "[7.0.0, )"
-          },
           "Microsoft.Extensions.Configuration.Json": {
-            "target": "Package",
-            "version": "[7.0.0, )"
-          },
-          "Microsoft.Extensions.Configuration.Xml": {
             "target": "Package",
             "version": "[7.0.0, )"
           }

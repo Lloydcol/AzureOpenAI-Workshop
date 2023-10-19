@@ -10,10 +10,7 @@
         "dependencies": {
           "Azure.AI.OpenAI": "1.0.0-beta.8",
           "Microsoft.Extensions.Configuration": "7.0.0",
-          "Microsoft.Extensions.Configuration.CommandLine": "7.0.0",
-          "Microsoft.Extensions.Configuration.EnvironmentVariables": "7.0.0",
-          "Microsoft.Extensions.Configuration.Json": "7.0.0",
-          "Microsoft.Extensions.Configuration.Xml": "7.0.0"
+          "Microsoft.Extensions.Configuration.Json": "7.0.0"
         },
         "runtime": {
           "AzureOpenAI-WorkshopApp.dll": {}
@@ -79,30 +76,6 @@
           }
         }
       },
-      "Microsoft.Extensions.Configuration.CommandLine/7.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.Configuration": "7.0.0",
-          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0"
-        },
-        "runtime": {
-          "lib/net7.0/Microsoft.Extensions.Configuration.CommandLine.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
-          }
-        }
-      },
-      "Microsoft.Extensions.Configuration.EnvironmentVariables/7.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.Configuration": "7.0.0",
-          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0"
-        },
-        "runtime": {
-          "lib/net7.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
-          }
-        }
-      },
       "Microsoft.Extensions.Configuration.FileExtensions/7.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "7.0.0",
@@ -128,21 +101,6 @@
         },
         "runtime": {
           "lib/net7.0/Microsoft.Extensions.Configuration.Json.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
-          }
-        }
-      },
-      "Microsoft.Extensions.Configuration.Xml/7.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.Configuration": "7.0.0",
-          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
-          "Microsoft.Extensions.Configuration.FileExtensions": "7.0.0",
-          "Microsoft.Extensions.FileProviders.Abstractions": "7.0.0",
-          "System.Security.Cryptography.Xml": "7.0.0"
-        },
-        "runtime": {
-          "lib/net7.0/Microsoft.Extensions.Configuration.Xml.dll": {
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.22.51805"
           }
@@ -193,7 +151,6 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         }
       },
-      "System.Formats.Asn1/7.0.0": {},
       "System.Memory.Data/1.0.2": {
         "dependencies": {
           "System.Text.Encodings.Web": "7.0.0",
@@ -208,36 +165,6 @@
       },
       "System.Numerics.Vectors/4.5.0": {},
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
-      "System.Security.Cryptography.Pkcs/7.0.0": {
-        "dependencies": {
-          "System.Formats.Asn1": "7.0.0"
-        },
-        "runtime": {
-          "lib/net7.0/System.Security.Cryptography.Pkcs.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.dll": {
-            "rid": "win",
-            "assetType": "runtime",
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
-          }
-        }
-      },
-      "System.Security.Cryptography.Xml/7.0.0": {
-        "dependencies": {
-          "System.Security.Cryptography.Pkcs": "7.0.0"
-        },
-        "runtime": {
-          "lib/net7.0/System.Security.Cryptography.Xml.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
-          }
-        }
-      },
       "System.Text.Encodings.Web/7.0.0": {},
       "System.Text.Json/7.0.0": {
         "dependencies": {
@@ -288,20 +215,6 @@
       "path": "microsoft.extensions.configuration.abstractions/7.0.0",
       "hashPath": "microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration.CommandLine/7.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-a8Iq8SCw5m8W5pZJcPCgBpBO4E89+NaObPng+ApIhrGSv9X4JPrcFAaGM4sDgR0X83uhLgsNJq8VnGP/wqhr8A==",
-      "path": "microsoft.extensions.configuration.commandline/7.0.0",
-      "hashPath": "microsoft.extensions.configuration.commandline.7.0.0.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Configuration.EnvironmentVariables/7.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-RIkfqCkvrAogirjsqSrG1E1FxgrLsOZU2nhRbl07lrajnxzSU2isj2lwQah0CtCbLWo/pOIukQzM1GfneBUnxA==",
-      "path": "microsoft.extensions.configuration.environmentvariables/7.0.0",
-      "hashPath": "microsoft.extensions.configuration.environmentvariables.7.0.0.nupkg.sha512"
-    },
     "Microsoft.Extensions.Configuration.FileExtensions/7.0.0": {
       "type": "package",
       "serviceable": true,
@@ -315,13 +228,6 @@
       "sha512": "sha512-LDNYe3uw76W35Jci+be4LDf2lkQZe0A7EEYQVChFbc509CpZ4Iupod8li4PUXPBhEUOFI/rlQNf5xkzJRQGvtA==",
       "path": "microsoft.extensions.configuration.json/7.0.0",
       "hashPath": "microsoft.extensions.configuration.json.7.0.0.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Configuration.Xml/7.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-KXmN/llitPZydHbW3cac7MQHGPUXPi4783tYxsBqSAFJgcaYTdLmsboFL7Ss4TsnelF0+v4ZMpEkKTtCtpysiA==",
-      "path": "microsoft.extensions.configuration.xml/7.0.0",
-      "hashPath": "microsoft.extensions.configuration.xml.7.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.FileProviders.Abstractions/7.0.0": {
       "type": "package",
@@ -358,13 +264,6 @@
       "path": "system.diagnostics.diagnosticsource/6.0.1",
       "hashPath": "system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512"
     },
-    "System.Formats.Asn1/7.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-+nfpV0afLmvJW8+pLlHxRjz3oZJw4fkyU9MMEaMhCsHi/SN9bGF9q79ROubDiwTiCHezmK0uCWkPP7tGFP/4yg==",
-      "path": "system.formats.asn1/7.0.0",
-      "hashPath": "system.formats.asn1.7.0.0.nupkg.sha512"
-    },
     "System.Memory.Data/1.0.2": {
       "type": "package",
       "serviceable": true,
@@ -385,20 +284,6 @@
       "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
       "path": "system.runtime.compilerservices.unsafe/6.0.0",
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
-    },
-    "System.Security.Cryptography.Pkcs/7.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-mjUbEXkR6DYRef6dnEYKdfec9otcAkibExL+1f9hmbGlWIUyaCnS3Y3oGZEet38waXmuY1ORE8vgv4sgD5nMYg==",
-      "path": "system.security.cryptography.pkcs/7.0.0",
-      "hashPath": "system.security.cryptography.pkcs.7.0.0.nupkg.sha512"
-    },
-    "System.Security.Cryptography.Xml/7.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-LHc5PUypYGAMNf/2DzCxOXREKamwCtdUtxb/WpCnHngORVYZbUdSMnm1PcKvEvzKUTKSC0CL6aVAywzbEEeNQg==",
-      "path": "system.security.cryptography.xml/7.0.0",
-      "hashPath": "system.security.cryptography.xml.7.0.0.nupkg.sha512"
     },
     "System.Text.Encodings.Web/7.0.0": {
       "type": "package",
