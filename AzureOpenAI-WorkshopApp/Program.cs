@@ -30,29 +30,16 @@ GetJsonFromACall(callToJson);
 void GetSummaryFromOpenAI(string text){
  
     // Initialize the client
-    OpenAIClient client = new OpenAIClient(new Uri(oaiEndpoint), new AzureKeyCredential(oaiKey));
 
     // Build the completion
-    ChatCompletionsOptions chatCompletionsOptions = new ChatCompletionsOptions()
-    {
-        Messages =
-        {
-        new ChatMessage(ChatRole.System, "You are a helpful assistant. Summarize the following text in 20 words or less and talk like a pirate"),
-        new ChatMessage(ChatRole.User, text),
-        },
-        MaxTokens = 120,
-        Temperature = 0.7f,
-    };
+
 
     //Send request to Azure OpenAI Model
-    ChatCompletions response = client.GetChatCompletions(
-        deploymentOrModelName: oaiModelName, 
-        chatCompletionsOptions);
-    string completion = response.Choices[0].Message.Content;
+
 
     // Get the result
 
-    Console.WriteLine("Summary: " + completion + "\n");
+
 }
 
 
@@ -61,27 +48,11 @@ void GetSummaryFromOpenAI(string text){
 void GetJsonFromACall (string mycall){
 
     // Initialize the client
-    OpenAIClient client = new OpenAIClient(new Uri(oaiEndpoint), new AzureKeyCredential(oaiKey));
 
     // Get the prompt
-    string promptToJson = System.IO.File.ReadAllText(@"./text-files/promptToJson.txt");
 
     // Build the completion
-    ChatCompletionsOptions chatCompletionsOptions = new ChatCompletionsOptions()
-    {
-        Messages =
-        {
-        new ChatMessage(ChatRole.System, promptToJson),
-        new ChatMessage(ChatRole.User, mycall),
-        },
-        Temperature = 0.7f,
-    };
 
     //Send request to Azure OpenAI Model
-    ChatCompletions response = client.GetChatCompletions(
-        deploymentOrModelName: oaiModelName, 
-        chatCompletionsOptions);
-    string completion = response.Choices[0].Message.Content;
 
-    Console.WriteLine(completion + "\n");
 }
